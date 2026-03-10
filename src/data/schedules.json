@@ -1,0 +1,152 @@
+[
+  {
+    "id": "SCH001",
+    "city": "北京",
+    "total_seats": 50,
+    "remaining_seats": 30,
+    "departure_time": "2024-01-01 08:00:00",
+    "stations": [
+      {
+        "name": "北京站",
+        "coord": {"latitude": 39.9042, "longitude": 116.4074},
+        "arrive_time": "2024-01-01 07:45:00",
+        "depart_time": "2024-01-01 08:00:00"
+      },
+      {
+        "name": "北京南站",
+        "coord": {"latitude": 39.8651, "longitude": 116.3786},
+        "arrive_time": "2024-01-01 08:30:00",
+        "depart_time": "2024-01-01 08:40:00"
+      },
+      {
+        "name": "天津站",
+        "coord": {"latitude": 39.0842, "longitude": 117.2009},
+        "arrive_time": "2024-01-01 09:30:00",
+        "depart_time": "2024-01-01 09:40:00"
+      }
+    ]
+  },
+  {
+    "id": "SCH002",
+    "city": "北京",
+    "total_seats": 40,
+    "remaining_seats": 5,
+    "departure_time": "2024-01-01 09:00:00",
+    "stations": [
+      {
+        "name": "北京站",
+        "coord": {"latitude": 39.9042, "longitude": 116.4074},
+        "arrive_time": "2024-01-01 08:45:00",
+        "depart_time": "2024-01-01 09:00:00"
+      },
+      {
+        "name": "北京西站",
+        "coord": {"latitude": 39.8586, "longitude": 116.3286},
+        "arrive_time": "2024-01-01 09:20:00",
+        "depart_time": "2024-01-01 09:30:00"
+      },
+      {
+        "name": "石家庄站",
+        "coord": {"latitude": 38.0457, "longitude": 114.4995},
+        "arrive_time": "2024-01-01 11:00:00",
+        "depart_time": "2024-01-01 11:10:00"
+      }
+    ]
+  },
+  {
+    "id": "SCH003",
+    "city": "北京",
+    "total_seats": 60,
+    "remaining_seats": 40,
+    "departure_time": "2024-01-01 10:00:00",
+    "stations": [
+      {
+        "name": "北京南站",
+        "coord": {"latitude": 39.8651, "longitude": 116.3786},
+        "arrive_time": "2024-01-01 09:45:00",
+        "depart_time": "2024-01-01 10:00:00"
+      },
+      {
+        "name": "天津站",
+        "coord": {"latitude": 39.0842, "longitude": 117.2009},
+        "arrive_time": "2024-01-01 10:50:00",
+        "depart_time": "2024-01-01 11:00:00"
+      },
+      {
+        "name": "济南站",
+        "coord": {"latitude": 36.6683, "longitude": 117.0207},
+        "arrive_time": "2024-01-01 13:00:00",
+        "depart_time": "2024-01-01 13:10:00"
+      }
+    ]
+  },
+  {
+    "id": "SCH004",
+    "city": "上海",
+    "total_seats": 55,
+    "remaining_seats": 25,
+    "departure_time": "2024-01-01 08:30:00",
+    "stations": [
+      {
+        "name": "上海站",
+        "coord": {"latitude": 31.2304, "longitude": 121.4737},
+        "arrive_time": "2024-01-01 08:15:00",
+        "depart_time": "2024-01-01 08:30:00"
+      },
+      {
+        "name": "上海南站",
+        "coord": {"latitude": 31.1629, "longitude": 121.4366},
+        "arrive_time": "2024-01-01 08:50:00",
+        "depart_time": "2024-01-01 09:00:00"
+      },
+      {
+        "name": "杭州站",
+        "coord": {"latitude": 30.2741, "longitude": 120.1551},
+        "arrive_time": "2024-01-01 10:30:00",
+        "depart_time": "2024-01-01 10:40:00"
+      }
+    ]
+  },
+  {
+    "id": "SCH005",
+    "city": "上海",
+    "total_seats": 45,
+    "remaining_seats": 10,
+    "departure_time": "2024-01-01 09:30:00",
+    "stations": [
+      {
+        "name": "上海站",
+        "coord": {"latitude": 31.2304, "longitude": 121.4737},
+        "arrive_time": "2024-01-01 09:15:00",
+        "depart_time": "2024-01-01 09:30:00"
+      },
+      {
+        "name": "南京站",
+        "coord": {"latitude": 32.0603, "longitude": 118.7969},
+        "arrive_time": "2024-01-01 11:30:00",
+        "depart_time": "2024-01-01 11:40:00"
+      }
+    ]
+  },
+  {
+    "id": "SCH006",
+    "city": "广州",
+    "total_seats": 50,
+    "remaining_seats": 35,
+    "departure_time": "2024-01-01 10:00:00",
+    "stations": [
+      {
+        "name": "广州站",
+        "coord": {"latitude": 23.1291, "longitude": 113.2644},
+        "arrive_time": "2024-01-01 09:45:00",
+        "depart_time": "2024-01-01 10:00:00"
+      },
+      {
+        "name": "深圳站",
+        "coord": {"latitude": 22.5431, "longitude": 114.0579},
+        "arrive_time": "2024-01-01 11:30:00",
+        "depart_time": "2024-01-01 11:40:00"
+      }
+    ]
+  }
+]

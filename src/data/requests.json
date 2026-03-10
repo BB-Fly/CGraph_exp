@@ -1,0 +1,52 @@
+[
+  {
+    "id": "REQ001",
+    "required_seats": 2,
+    "departure_time": "2024-01-01 08:00:00",
+    "city": "北京",
+    "start_coord": {"latitude": 39.9042, "longitude": 116.4074},
+    "end_coord": {"latitude": 39.0842, "longitude": 117.2009},
+    "page_size": 10,
+    "page_num": 1
+  },
+  {
+    "id": "REQ002",
+    "required_seats": 5,
+    "departure_time": "2024-01-01 09:00:00",
+    "city": "北京",
+    "start_coord": {"latitude": 39.8586, "longitude": 116.3286},
+    "end_coord": {"latitude": 38.0457, "longitude": 114.4995},
+    "page_size": 10,
+    "page_num": 1
+  },
+  {
+    "id": "REQ003",
+    "required_seats": 3,
+    "departure_time": "2024-01-01 10:00:00",
+    "city": "上海",
+    "start_coord": {"latitude": 31.2304, "longitude": 121.4737},
+    "end_coord": {"latitude": 30.2741, "longitude": 120.1551},
+    "page_size": 10,
+    "page_num": 1
+  },
+  {
+    "id": "REQ004",
+    "required_seats": 10,
+    "departure_time": "2024-01-01 08:30:00",
+    "city": "上海",
+    "start_coord": {"latitude": 31.1629, "longitude": 121.4366},
+    "end_coord": {"latitude": 30.2741, "longitude": 120.1551},
+    "page_size": 10,
+    "page_num": 1
+  },
+  {
+    "id": "REQ005",
+    "required_seats": 2,
+    "departure_time": "2024-01-01 10:00:00",
+    "city": "广州",
+    "start_coord": {"latitude": 23.1291, "longitude": 113.2644},
+    "end_coord": {"latitude": 22.5431, "longitude": 114.0579},
+    "page_size": 10,
+    "page_num": 1
+  }
+]
