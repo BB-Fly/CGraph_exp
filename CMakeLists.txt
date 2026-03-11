@@ -52,3 +52,14 @@ add_custom_command(TARGET CGraph_exp POST_BUILD
     ${CMAKE_SOURCE_DIR}/src/data
     ${CMAKE_BINARY_DIR}/src/data
 )
+
+# 添加demo构建目标
+file(GLOB DEMO_SOURCES "src/test/exp_pre_lock_seat/*.cpp")
+add_executable(exp_pre_lock_seat ${DEMO_SOURCES} ${CGRAPH_SOURCES})
+
+# 复制数据文件到demo构建目录
+add_custom_command(TARGET exp_pre_lock_seat POST_BUILD
+    COMMAND ${CMAKE_COMMAND} -E copy_directory
+    ${CMAKE_SOURCE_DIR}/src/data
+    ${CMAKE_BINARY_DIR}/src/data
+)

@@ -37,6 +37,9 @@ else
     # 编译项目
     $COMPILER -std=c++11 -Ithirdparty -Ithirdparty/CGraph -Isrc/include src/src/main.cpp $(find thirdparty/CGraph -name "*.cpp") -o build/CGraph_exp
     
+    # 编译demo
+    $COMPILER -std=c++11 -Ithirdparty -Ithirdparty/CGraph -Isrc/include src/test/exp_pre_lock_seat/main.cpp $(find thirdparty/CGraph -name "*.cpp") -o build/exp_pre_lock_seat
+    
     # 复制数据文件到构建目录
     mkdir -p build/src/data
     cp -r src/data/* build/src/data/
